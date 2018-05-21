@@ -26,9 +26,14 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	/* class             instance  title  tags mask  isfloating  monitor */
+	{ "Gimp",            NULL,     NULL,  0,         True,       -1},
+	{ "Anki",            NULL,     NULL,  0,         True,       -1},
+	{ "feh",             NULL,     NULL,  0,         True,       -1},
+	{ "Tkremind",        NULL,     NULL,  0,         True,       -1},
+	{ "Wicd-client.py",  NULL,     NULL,  0,         True,       -1},
+	{ "Galculator",      NULL,     NULL,  0,         True,       -1},
+	{ "Pinentry-gtk-2",  NULL,     NULL,  0,         True,       -1},
 };
 
 /* layout(s) */
