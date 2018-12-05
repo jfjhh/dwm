@@ -31,9 +31,10 @@ static const Rule rules[] = {
 	{ "Anki",            NULL,     NULL,  0,         True,       -1},
 	{ "feh",             NULL,     NULL,  0,         True,       -1},
 	{ "Tkremind",        NULL,     NULL,  0,         True,       -1},
-	{ "Wicd-client.py",  NULL,     NULL,  0,         True,       -1},
 	{ "Galculator",      NULL,     NULL,  0,         True,       -1},
 	{ "Pinentry-gtk-2",  NULL,     NULL,  0,         True,       -1},
+	{ "Wicd-client.py",  NULL,     NULL,  1<<(9-1),  True,       -1},
+    { "Google-chrome-unstable",NULL,NULL, 1<<(2-1),  False,      -1},
 };
 
 /* layout(s) */
