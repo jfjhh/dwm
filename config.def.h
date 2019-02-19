@@ -30,15 +30,15 @@ static const Rule rules[] = {
 	{ "Gimp",            NULL,     NULL,  0,         True,       -1},
 	{ "Anki",            NULL,     NULL,  0,         True,       -1},
 	{ "feh",             NULL,     NULL,  0,         True,       -1},
-	{ "Tkremind",        NULL,     NULL,  0,         True,       -1},
 	{ "Galculator",      NULL,     NULL,  0,         True,       -1},
 	{ "Pinentry-gtk-2",  NULL,     NULL,  0,         True,       -1},
-	{ "Wicd-client.py",  NULL,     NULL,  1<<(9-1),  True,       -1},
+	{ "Ssh-askpass-fullscreen", NULL,NULL,0,         True,       -1},
+	{ "URxvt",           "urxvt",  "reconnect", 1<<(9-1), False, -1},
     { "Google-chrome-unstable",NULL,NULL, 1<<(2-1),  False,      -1},
 };
 
 /* layout(s) */
-static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.40; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
 
